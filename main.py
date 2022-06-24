@@ -109,8 +109,7 @@ def CheckShader(ShaderId: GLuint):
 		# Erro ao compilar o shader, imprimir o log para saber o que est� errado
 		InfoLogLength = glGetShaderiv(ShaderId, GL_INFO_LOG_LENGTH)
 
-		ShaderInfoLog(InfoLogLength, '\0')
-		glGetShaderInfoLog(ShaderId, InfoLogLength, nullptr, &ShaderInfoLog[0])
+		ShaderInfoLog = glGetShaderInfoLog(ShaderId, InfoLogLength)
 
 		if InfoLogLength > 0:
 			print("Erro no Vertex Shader:")
@@ -123,8 +122,8 @@ def LoadShaders(VertexShaderFile, FragmentShaderFile) ->GLuint:
 	VertShaderId = glCreateShader(GL_VERTEX_SHADER)
 	FragShaderId = glCreateShader(GL_FRAGMENT_SHADER)
 
-	VertexShaderSource = ReadFile(VertexShaderFile)
-	FragmentShaderSource = ReadFile(FragmentShaderFile)
+	#VertexShaderSource = ReadFile(VertexShaderFile)
+	#FragmentShaderSource = ReadFile(FragmentShaderFile)
 
 	#assert(not VertexShaderSource.empty())
 	#assert(not FragmentShaderSource.empty())
@@ -154,12 +153,11 @@ def LoadShaders(VertexShaderFile, FragmentShaderFile) ->GLuint:
 
 		if InfoLogLength > 0:
 
-			ProgramInfoLog(InfoLogLength, '\0')
-			glGetProgramInfoLog(ProgramId, InfoLogLength, nullptr, &ProgramInfoLog[0])
+			ProgramInfoLog = glGetProgramInfoLog(ProgramId, InfoLogLength)
 
 			print("Erro ao linkar o Programa")
 			print(ProgramInfoLog)
-			assert(False)
+			assert False
 
 
 
