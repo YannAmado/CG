@@ -1,8 +1,6 @@
 import glm
 from OpenGL.GL import *
-import OpenGL.GLUT
 import glfw
-import glew
 import sys
 
 from OpenGL.raw.GL._types import GLuint
@@ -23,15 +21,18 @@ class Vertex:
 		self.Color = col
 		self.UV = uv
 
+	_fields_ = [('Normal', glm.vec3), ("Color", glm.vec3), ("UV", glm.vec2)]
+
+
 class Triangle:
-	def __init__(self, v0:GLuint, v1:GLuint, v2:GLuint):
+	def __init__(self, v0: GLuint, v1: GLuint, v2: GLuint):
 		self.V0 = v0
 		self.V1 = v1
 		self.V2 = v2
 
 
 class DirectionalLight:
-	def __init__(self, direc:glm.vec3, intensity:GLfloat):
+	def __init__(self, direc: glm.vec3, intensity: GLfloat):
 		self.Direction = direc
 		self.Intensity = intensity
 
@@ -256,7 +257,7 @@ def main():
 		return 1
 
 	glfw.window_hint(glfw.DEPTH_BITS, 32)
-	Window = glfw.create_window(Width, Height, "Blue Marble")
+	Window = glfw.create_window(Width, Height, "Blue Marble", None, None)
 
 	if not Window:
 
@@ -271,10 +272,10 @@ def main():
 	glfw.make_context_current(Window)
 	glfw.swap_interval(1)
 
-	if glew.glewInit() != glew.GLEW_OK:
-		print("Erro ao inicializar o GLEW")
-		glfw.terminate()
-		return 1
+	#if glew.glewInit() != glew.GLEW_OK:
+	#	print("Erro ao inicializar o GLEW")
+	#	glfw.terminate()
+	#	return 1
 
 
 	GLMajorVersion = glGetIntegerv(GL_MAJOR_VERSION)
@@ -299,16 +300,20 @@ def main():
 	ProgramId = LoadShaders("shaders/triangle_vert.glsl", "shaders/triangle_frag.glsl")
 
 	# Gera a Geometria da esfera e copia os dados para a GPU (mem�ria da placa de v�deo)
-	SphereVertices = [Vertex()]
-	SphereIndices = [Triangle(0,0,0)]
+	SphereVertices = []
+	SphereIndices = []
 	GenerateSphere(100, SphereVertices, SphereIndices)
 
 	SphereVertexBuffer = glGenBuffers(1)
 	SphereElementBuffer = glGenBuffers(1)
+
 	glBindBuffer(GL_ARRAY_BUFFER, SphereVertexBuffer)
-	glBufferData(GL_ARRAY_BUFFER, len(SphereVertices) *  sys.getsizeof(Vertex), SphereVertices.data(), GL_STATIC_DRAW)
+
+	# aqui tirei o .data do sphereVercites.data()
+	glBufferData(GL_ARRAY_BUFFER, len(SphereVertices) *  sys.getsizeof(Vertex), SphereVertices, GL_STATIC_DRAW)
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, SphereElementBuffer)
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, len(SphereIndices) *  sys.getsizeof(Triangle), SphereIndices.data(), GL_STATIC_DRAW)
+	# aqui tirei o .data do sphereIndices.data()
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, len(SphereIndices) *  sys.getsizeof(Triangle), SphereIndices, GL_STATIC_DRAW)
 
 	# Criar uma fonte de luz direcional
 	Light = DirectionalLight(glm.vec3(0.0, 0.0, -1.0), 1.0)
@@ -347,9 +352,9 @@ def main():
 	# Informa ao OpenGL onde, dentro do VertexBuffer, os v�rtices est�o. No
 	# nosso caso o array Triangles � tudo o que a gente precisa
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sys.getsizeof(Vertex))
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_TRUE, sys.getsizeof(Vertex), reinterpret_cast<void*>(offsetof(Vertex, Normal)))
-	glVertexAttribPointer(2, 3, GL_FLOAT, GL_TRUE, sys.getsizeof(Vertex), reinterpret_cast<void*>(offsetof(Vertex, Color)))
-	glVertexAttribPointer(3, 2, GL_FLOAT, GL_FALSE, sys.getsizeof(Vertex), reinterpret_cast<void*>(offsetof(Vertex, UV)))
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_TRUE, sys.getsizeof(Vertex), Vertex.Normal.offset)
+	glVertexAttribPointer(2, 3, GL_FLOAT, GL_TRUE, sys.getsizeof(Vertex), Vertex.Color.offset)
+	glVertexAttribPointer(3, 2, GL_FLOAT, GL_FALSE, sys.getsizeof(Vertex), Vertex.UV.offset)
 
 	# Disabilitar o VAO
 	glBindVertexArray(0)

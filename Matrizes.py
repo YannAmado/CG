@@ -1,31 +1,31 @@
 import glm
 
+
 def PrintMatrix(M):
 	for i in range(4):
 		for j in range(4):
 			print(M[i][j], end=" ")
 		print()
 
+
 def TranslationMatrix():
 	print()
 	print("==================")
 	print("Translation Matrix")
 	print("==================")
-	
 
-	Position = glm.vec4(10, 10, 10, 1 )
-	Direction = glm.vec4(10, 10, 10, 0 )
-	Translate = glm.vec3(10, 10, 10 )
-	Translation = glm.translate(glm.identity<glm.mat4>(), Translate);
+	Position = glm.vec4(10, 10, 10, 1)
+	Direction = glm.vec4(10, 10, 10, 0)
+	Translate = glm.vec3(10, 10, 10)
+	Translation = glm.translate(glm.identity<glm.mat4>(), Translate)
 
 	PrintMatrix(Translation)
 
 	print()
 	Position = Translation * Position
 	Direction = Translation * Direction
-	print(glm.to_string(Position))
-	print(glm.to_string(Direction))
-
+	print(Position)
+	print(Direction)
 
 
 def RotationMatrix():
@@ -35,9 +35,9 @@ def RotationMatrix():
 	print("Rotation Matrix")
 	print("==================")
 
-	Position = glm.vec4( 100, 0, 0, 1 )
-	Direction = glm.vec4( 100, 0, 0, 0 )
-	Axis = glm.vec3( 0, 0, 1 )
+	Position = glm.vec4(100, 0, 0, 1)
+	Direction = glm.vec4(100, 0, 0, 0)
+	Axis = glm.vec3(0, 0, 1)
 	Rotation = glm.rotate(glm.identity<glm.mat4>(), glm.radians(90.0), Axis)
 
 	PrintMatrix(Rotation)
@@ -45,8 +45,8 @@ def RotationMatrix():
 	print()
 	Position = Rotation * Position
 	Direction = Rotation * Direction
-	print(glm.to_string(Position))
-	print(glm.to_string(Direction))
+	print(Position)
+	print(Direction)
 
 
 def ScaleMatrix():
@@ -56,9 +56,9 @@ def ScaleMatrix():
 	print("==================")
 
 
-	Position = glm.vec4( 100, 0, 0, 1 )
-	Direction = glm.vec4( 100, 100, 0, 0 )
-	ScaleAmount = glm.vec3( 2, 2, 2 )
+	Position = glm.vec4(100, 0, 0, 1)
+	Direction = glm.vec4(100, 100, 0, 0)
+	ScaleAmount = glm.vec3(2, 2, 2)
 	Scale = glm.scale(glm.identity<glm.mat4>(), ScaleAmount)
 
 	PrintMatrix(Scale)
@@ -66,8 +66,8 @@ def ScaleMatrix():
 	print()
 	Position = Scale * Position
 	Direction = Scale * Direction
-	print(glm.to_string(Position))
-	print(glm.to_string(Direction))
+	print(Position)
+	print(Direction)
 
 
 def ComposedMatrix():
@@ -76,16 +76,16 @@ def ComposedMatrix():
 	print("Composed Matrix")
 	print("==================")
 
-	Position = glm.vec4( 1, 1, 0, 1 )
-	Direction = glm.vec4( 1, 1, 0, 0)
+	Position = glm.vec4(1, 1, 0, 1)
+	Direction = glm.vec4(1, 1, 0, 0)
 
-	Translate = glm.vec3( 0, 10, 0 )
+	Translate = glm.vec3(0, 10, 0)
 	Translation = glm.translate(glm.identity<glm.mat4>(), Translate)
 
-	Axis = glm.vec3( 0, 0, 1 )
+	Axis = glm.vec3(0, 0, 1)
 	Rotation = glm.rotate(glm.identity<glm.mat4>(), glm.radians(45.0), Axis)
 
-	ScaleAmount = glm.vec3( 2, 2, 0 )
+	ScaleAmount = glm.vec3(2, 2, 0)
 	Scale = glm.scale(glm.identity<glm.mat4>(), ScaleAmount)
 
 	print("Translation")
@@ -110,9 +110,8 @@ def ComposedMatrix():
 	Direction = Transform * Direction
 
 	print()
-	print(glm.to_string(Position))
-	print(glm.to_string(Direction))
-
+	print(Position)
+	print(Direction)
 
 
 def ModelViewProjection():
@@ -121,14 +120,13 @@ def ModelViewProjection():
 	print("Model, View and Projection")
 	print("==================")
 
-
 	# Model é a matriz formada pelas transformações de Escala, Rotação e Translação!
 	Model = glm.identity<glm.mat4>()
 
 	# View
-	Eye = glm.vec3( 0.0, 0.0, 10.0 )
-	Center = glm.vec3(0.0, 0.0, 0.0 )
-	Up = glm.vec3( 0.0, 1.0, 0.0 )
+	Eye = glm.vec3(0.0, 0.0, 10.0)
+	Center = glm.vec3(0.0, 0.0, 0.0)
+	Up = glm.vec3(0.0, 1.0, 0.0)
 	View = glm.lookAt(Eye, Center, Up)
 
 	print("View")
@@ -143,10 +141,10 @@ def ModelViewProjection():
 	print("View")
 	PrintMatrix(Projection)
 
-	ModelViewProjection = Projection * View * Model
+	modelViewProjection = Projection * View * Model
 
 	print("ModelViewProjection")
-	PrintMatrix(ModelViewProjection)
+	PrintMatrix(modelViewProjection)
 
 
 def main():

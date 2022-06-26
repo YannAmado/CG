@@ -2,21 +2,23 @@
 #define GLM_FORCE_SWIZZLE
 import glm
 
+
 def Constructors():
 
 	print()
-	Point1 = glm.vec3(10.0, 0.0, 0.0);
-	Point2 = glm.vec3(10.0, 0.0, 0.0);
-	Point3 = glm.vec3(10.0, 0.0, 0.0);
+	Point1 = glm.vec3(10.0, 0.0, 0.0)
+	Point2 = glm.vec3(10.0, 0.0, 0.0)
+	Point3 = glm.vec3(10.0, 0.0, 0.0)
 
 	print(f"Point1: {Point1}")
 	print(f"Point2: {Point2}")
 	print(f"Point3: {Point3}")
 
+
 def Components():
 
 	print()
-	Point1 = glm.vec3(10.0, 10.0, 0.0);
+	Point1 = glm.vec3(10.0, 10.0, 0.0)
 	print(f"X: {Point1.x} Y: {Point1.y} Z: {Point1.z}")
 	print(f"R: {Point1.r} G: {Point1.g} B: {Point1.b}")
 	print(f"S: {Point1.s} T: {Point1.t} P: {Point1.p}")
