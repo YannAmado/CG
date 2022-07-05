@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cb5cb46-ec29-4c26-94ed-4eeead16828a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AnyConv.com__Sala Examen Chunnin.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chunnin/chunnin.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chunnin/chunnin.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/gaara/textures/eyes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/madara/textures/eyes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/naruto/textures/eyes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CG.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaara/gaara.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/gaara/figure.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaara/gaara_texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/gaara/textures/body.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/madara/madara.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/madara/figure.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/madara/texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/madara/textures/body.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naruto/naruto.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/naruto/figure.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naruto/texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/naruto/textures/body.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BUGJqVT3doLOxDG50ZNQi6gDdh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Gabriel/PycharmProjects/CG/resources/madara/textures",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\madara\textures" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\gaara" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\gaara\textures" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\chunnin" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb5cb46-ec29-4c26-94ed-4eeead16828a" name="Changes" comment="" />
+      <created>1656953180869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656953180869</updated>
+      <workItem from="1656953185075" duration="20518000" />
+      <workItem from="1656988264144" duration="884000" />
+      <workItem from="1656992937870" duration="1373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
