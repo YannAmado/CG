@@ -5,71 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cb5cb46-ec29-4c26-94ed-4eeead16828a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/figure.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/textures/Building_Bottom_baseColor.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/textures/Building_Top_baseColor.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/textures/Detail_Objects_baseColor.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/textures/Ground_baseColor.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/rock_lee/figure.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/rock_lee/textures/body.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/rock_lee/textures/head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/rock_lee/textures/legstrap.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sky/figure.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/street/textures/stone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sun/figure.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/terrain/figure.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnyConv.com__Sala Examen Chunnin.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/11912533.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/4857-829-4618-2-10-20190221.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/85-cottage_obj.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/CTDIAC 2020 Recording instructions.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/RE_BERT_SAC21.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/Relatório sem título_Página 1_Série temporal.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/applsci-09-03389.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/caixa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/caixa.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/caixa2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/multi_modal_ep.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/textura2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/textura2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/trabalhos_ctdiac_mestrado.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/caixa/ubu_0.8.embedding" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casa/house.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casa/house_texture.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceu/sky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sky/textures/sky.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceu/sky.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chunnin/chunnin.mtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chunnin/chunnin.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/chunnin_room/figure.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cottage/CasaSimples.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cottage/casaSimples_D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gato/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gato/cat.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gato/cat2.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gato/cat_diffuse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesa/Wood_Table.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesa/Wood_Table_C.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/gaara/figure.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/gaara/figure.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sol/sol.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sol/sun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sun/textures/sun.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terreno/grass.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/terrain/textures/grass.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terreno/terreno2.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/street/figure.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chao_casa/chao_casa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chao_casa/pedra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chao_casa/terreno2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/palm/palm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/palm/palm.obj" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +74,7 @@
       <workItem from="1656998045888" duration="277000" />
       <workItem from="1656998337052" duration="15000" />
       <workItem from="1656998371769" duration="3695000" />
-      <workItem from="1657002178778" duration="3962000" />
+      <workItem from="1657002178778" duration="4098000" />
     </task>
     <servers />
   </component>
