@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cb5cb46-ec29-4c26-94ed-4eeead16828a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chunnin_room/textures/texture_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/figure.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/textures/Building_Bottom_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/textures/Building_Top_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/textures/Detail_Objects_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/ramen_shop/textures/Ground_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/rock_lee/figure.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/rock_lee/textures/body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/rock_lee/textures/head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/rock_lee/textures/legstrap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sky/figure.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/street/textures/stone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sun/figure.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/terrain/figure.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnyConv.com__Sala Examen Chunnin.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/11912533.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/4857-829-4618-2-10-20190221.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/85-cottage_obj.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/CTDIAC 2020 Recording instructions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/RE_BERT_SAC21.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/Relatório sem título_Página 1_Série temporal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/applsci-09-03389.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/caixa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/caixa.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/caixa2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/multi_modal_ep.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/textura2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/textura2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/trabalhos_ctdiac_mestrado.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/caixa/ubu_0.8.embedding" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casa/house.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casa/house_texture.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ceu/sky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sky/textures/sky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ceu/sky.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chunnin/chunnin.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chunnin/chunnin.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/chunnin_room/figure.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cottage/CasaSimples.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cottage/casaSimples_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gato/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gato/cat.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gato/cat2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gato/cat_diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesa/Wood_Table.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesa/Wood_Table_C.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/gaara/figure.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/gaara/figure.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sol/sol.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sol/sun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sun/textures/sun.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terreno/grass.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/terrain/textures/grass.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terreno/terreno2.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/street/figure.obj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BUGJqVT3doLOxDG50ZNQi6gDdh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Gabriel/PycharmProjects/CG/resources/ramen_shop/textures",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\ramen_shop\textures" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\ramen_shop" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\street\textures" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\street" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\sun\textures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\sky\textures" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\ceu" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\terrain" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb5cb46-ec29-4c26-94ed-4eeead16828a" name="Changes" comment="" />
+      <created>1656953180869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656953180869</updated>
+      <workItem from="1656953185075" duration="20518000" />
+      <workItem from="1656988264144" duration="884000" />
+      <workItem from="1656992937870" duration="3295000" />
+      <workItem from="1656996497152" duration="60000" />
+      <workItem from="1656996712676" duration="154000" />
+      <workItem from="1656996935128" duration="1092000" />
+      <workItem from="1656998045888" duration="277000" />
+      <workItem from="1656998337052" duration="15000" />
+      <workItem from="1656998371769" duration="3695000" />
+      <workItem from="1657002178778" duration="3962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
