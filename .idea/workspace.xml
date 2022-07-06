@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cb5cb46-ec29-4c26-94ed-4eeead16828a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/theme.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme2.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/street/figure.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/street/figure.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/terrain/figure.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/terrain/figure.obj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,7 @@
       <workItem from="1656998337052" duration="15000" />
       <workItem from="1656998371769" duration="3695000" />
       <workItem from="1657002178778" duration="4098000" />
-      <workItem from="1657133073242" duration="1448000" />
+      <workItem from="1657133073242" duration="2018000" />
     </task>
     <servers />
   </component>
