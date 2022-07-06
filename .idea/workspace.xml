@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cb5cb46-ec29-4c26-94ed-4eeead16828a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/theme.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme2.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chao_casa/chao_casa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chao_casa/pedra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chao_casa/terreno2.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/palm/palm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/palm/palm.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/street/figure.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/street/figure.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/terrain/figure.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/terrain/figure.obj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,31 +30,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Gabriel/PycharmProjects/CG/resources/ramen_shop/textures",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/PycharmProjects/CG&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG" />
       <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\ramen_shop\textures" />
       <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\ramen_shop" />
       <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\street\textures" />
       <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\street" />
-      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\sun\textures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\sky\textures" />
-      <recent name="C:\Users\Gabriel\PycharmProjects\CG\ceu" />
       <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources" />
       <recent name="C:\Users\Gabriel\PycharmProjects\CG" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\sky\textures" />
+      <recent name="C:\Users\Gabriel\PycharmProjects\CG\ceu" />
       <recent name="C:\Users\Gabriel\PycharmProjects\CG\resources\terrain" />
     </key>
   </component>
@@ -75,6 +76,7 @@
       <workItem from="1656998337052" duration="15000" />
       <workItem from="1656998371769" duration="3695000" />
       <workItem from="1657002178778" duration="4098000" />
+      <workItem from="1657133073242" duration="1448000" />
     </task>
     <servers />
   </component>
@@ -91,5 +93,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/Gabriel/PycharmProjects/CG/Aula 9.Ex - Malhas e Texturas - Mapeamento de Texturas.ipynb</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
